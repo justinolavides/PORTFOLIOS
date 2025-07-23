@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aj's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="profile.png">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <header>
+        <div class="container header-flex">
+            <div class="logo" aria-label="Homepage">Shaun AJ<span class="dot">.</span></div>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav id="main-nav" aria-label="Main Navigation">
+                <div class="nav-underline"></div>
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link" aria-label="Home"><span class="nav-icon">🏠</span> Home</a></li>
+                    <li><a href="#about" class="nav-link" aria-label="About"><span class="nav-icon">👤</span> About</a></li>
+                    <li><a href="#education" class="nav-link" aria-label="Education"><span class="nav-icon">🎓</span> Education</a></li>
+                    <li><a href="#skills" class="nav-link" aria-label="Skills"><span class="nav-icon">💻</span> Skills</a></li>
+                    <li><a href="#projects" class="nav-link" aria-label="Projects"><span class="nav-icon">📁</span> Projects</a></li>
+                    <li><a href="#hobbies" class="nav-link" aria-label="Hobbies"><span class="nav-icon">🎮</span> Hobbies</a></li>
+                    <li><a href="#contact" class="nav-link" aria-label="Contact"><span class="nav-icon">✉️</span> Contact</a></li>
+                </ul>
+            </nav>
+            <button id="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+    </header>
+    <section id="home" class="hero" data-animate="fade-in-up">
+        <div class="hero-bg-animated"></div>
+        <div class="container hero-content profile-layout">
+            <div class="hero-image">
+                <img src="profile.png" alt="Shaun AJ Profile Photo" loading="lazy">
+            </div>
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Shaun AJ</span></h1>
+                <h2 class="subtitle">Dedicated Front-End Developer</h2>
+                <p class="tagline">Building interactive, user-friendly, and visually stunning web experiences.</p>
+                <p>Passionate about transforming design concepts into interactive and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a keen eye for detail and clean code. Ready to build your next innovative web solution.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary">Hire Me</a>
+                    <a href="#contact" class="btn secondary">Let's Talk</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://facebook.com/Shaun AJ" target="_blank" aria-label="Facebook" title="Facebook">
+                        <!-- Facebook Official SVG -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.406.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .592 23.406 0 22.675 0"/></svg>
+                    </a>
+                    <a href="https://instagram.com/Shaunae" target="_blank" aria-label="Instagram" title="Instagram">
+                        <!-- Instagram Official SVG -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.241 1.308 3.608.058 1.266.069 1.646.069 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.241 1.246-3.608 1.308-1.266.058-1.646.069-4.85.069s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.241-1.308-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608C4.515 2.497 5.782 2.225 7.148 2.163 8.414 2.105 8.794 2.094 12 2.094m0-2.163C8.741 0 8.332.012 7.052.07 5.771.128 4.659.334 3.678 1.315c-.98.98-1.187 2.092-1.245 3.373C2.012 5.668 2 6.077 2 9.337v5.326c0 3.26.012 3.669.07 4.95.058 1.281.265 2.393 1.245 3.373.98.98 2.092 1.187 3.373 1.245 1.281.058 1.69.07 4.95.07s3.669-.012 4.95-.07c1.281-.058 2.393-.265 3.373-1.245.98-.98 1.187-2.092 1.245-3.373.058-1.281.07-1.69.07-4.95s-.012-3.669-.07-4.95c-.058-1.281-.265-2.393-1.245-3.373-.98-.98-2.092-1.187-3.373-1.245C15.669.012 15.26 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
+                    </a>
+                    <a href="mailto:justoshaun01142003@gmail.com" aria-label="Gmail" title="Gmail">
+                        <!-- Gmail Official SVG -->
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 6V7.51L12 13.01L4 7.51V6H20ZM4 18V9.51L12 15.01L20 9.51V18H4Z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about" data-animate="fade-in-up">
+        <div class="container">
+            <h2>About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Dedicated Front-End Developer</h3>
+                    <p>Hi, I'm Shaun! I'm passionate about transforming design concepts into interactive and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a keen eye for detail and clean code. Continuously exploring new frameworks and tools to enhance development efficiency and user experience. Adept at problem-solving and debugging, committed to delivering clean and functional code. Eager to collaborate on innovative projects and contribute to dynamic development teams. Dedicated to best practices in web development, always seeking opportunities for growth and improvement.</p>
+                    <ul>
+                        <li><strong>Location:</strong> Tagoloan, Misamis Oriental</li>
+                    </ul>
+                    <a href="resume.pdf" class="btn primary" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="journey" data-animate="fade-in-up">
+        <div class="container">
+            <h2>My <span class="highlight">Journey</span></h2>
+            <div class="journey-content">
+                <div class="education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li><span>Currently Enrolled</span> Tagoloan Community College (TCC), Tagoloan, Misamis Oriental — 3rd Year</li>
+                        <li><span>2023 - 2024</span> Colegio De Montalban, Montalban, Rizal — Senior High School</li>
+                        <li><span>2021 - 2022</span> Justice Cecilia Muñoz Palma Senior High School — Junior High School</li>
+                        <li><span>2019 - 2020</span> Justice Cecilia Muñoz Palma High School, Quezon City</li>
+                        <li><span>2015 - 2016</span> Lupang Pangako Elementary School — Elementary School Certificate</li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3>Experience</h3>
+                    <ul>
+                        <li><span>Front-End Projects</span> Personal and academic web development projects</li>
+                        <li><span>Team Collaboration</span> Group projects and coding challenges</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills" data-animate="fade-in-up">
+        <div class="container">
+            <h2>My <span class="highlight">Skills</span></h2>
+            <div class="skills-content">
+                <div class="coding-skills">
+                    <h3>Coding Skills</h3>
+                    <div class="skill-bar"><span>HTML</span><div class="bar"><div class="progress" style="width: 90%; background: #5100ff;"></div><span class="skill-percent">90%</span></div></div>
+                    <div class="skill-bar"><span>CSS</span><div class="bar"><div class="progress" style="width: 80%; background: #5100ff;"></div><span class="skill-percent">80%</span></div></div>
+                    <div class="skill-bar"><span>JavaScript</span><div class="bar"><div class="progress" style="width: 68%; background: #5100ff;"></div><span class="skill-percent">68%</span></div></div>
+                </div>
+                <div class="professional-skills">
+                    <h3>Professional Skills</h3>
+                    <div class="skill-bar"><span>Web Design</span><div class="bar"><div class="progress" style="width: 95%; background: #5100ff;"></div><span class="skill-percent">95%</span></div></div>
+                    <div class="skill-bar"><span>Web Development</span><div class="bar"><div class="progress" style="width: 67%; background: #5100ff;"></div><span class="skill-percent">67%</span></div></div>
+                    <div class="skill-bar"><span>Graphic Design</span><div class="bar"><div class="progress" style="width: 85%; background: #5100ff;"></div><span class="skill-percent">85%</span></div></div>
+                    <div class="skill-bar"><span>SEO Marketing</span><div class="bar"><div class="progress" style="width: 60%; background: #5100ff;"></div><span class="skill-percent">60%</span></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects" data-animate="fade-in-up">
+        <div class="container">
+            <h2>My <span class="highlight">Projects</span></h2>
+            <div class="projects-content">
+                <div class="project-card">
+                    <img src="portfolio.png" alt="Portfolio Website Screenshot" loading="lazy">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website to showcase my skills, education, and projects. Built with HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="btn secondary" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <div class="no-image">No image</div>
+                    <h3>Still Working...</h3>
+                    <p>This project is currently in progress. Stay tuned for updates!</p>
+                </div>
+                <div class="project-card">
+                    <div class="no-image">No image</div>
+                    <h3>Still Working...</h3>
+                    <p>This project is currently in progress. Stay tuned for updates!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hobbies" class="about" data-animate="fade-in-up">
+        <div class="container">
+            <h2>My <span class="highlight">Hobbies</span></h2>
+            <ul>
+                <li>Gaming</li>
+                <li>Digital Art & Graphic Design</li>
+                <li>Video Editing</li>
+            </ul>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials" data-animate="fade-in-up">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial active">
+                    <p>"Shaun is a dedicated developer who always delivers quality work!"</p>
+                    <span>- Project Teammate</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Creative, reliable, and a great collaborator."</p>
+                    <span>- Classmate</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Always eager to learn and improve. Highly recommended!"</p>
+                    <span>- Instructor</span>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-prev" aria-label="Previous testimonial">&#8592;</button>
+                <button class="testimonial-next" aria-label="Next testimonial">&#8594;</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact <span class="highlight">Me!</span></h2>
+            <ul style="margin-bottom: 20px;">
+                <li><strong>Facebook:</strong> Shaun AJ</li>
+                <li><strong>Instagram:</strong> Shaunae</li>
+                <li><strong>Email:</strong> justoshaun01142003@gmail.com</li>
+            </ul>
+            <form id="contact-form" onsubmit="return handleSubmit(event)">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                    <input type="email" name="email" placeholder="Email Address" required aria-label="Email Address">
+                </div>
+                <textarea name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                <button type="submit" class="btn primary">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Copyright © 2023 by Shaun AJ | All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
